@@ -1,0 +1,86 @@
+{
+	// Place your snippets for TypeScript React here. Each snippet is defined under a snippet name and has a prefix, body and
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the
+	// same ids are connected.
+
+    "componentWillMount": {
+        "prefix": "_cwm",
+        "body": [
+            "componentWillMount = () => {",
+            "\t$0",
+            "}"
+        ],
+        "description": "componentWillMount"
+    },
+
+    "componentDidMount": {
+        "prefix": "_cdm",
+        "body": [
+            "componentDidMount = () => {",
+            "\t$0",
+            "}"
+        ],
+        "description": "componentDidMount"
+    },
+
+    "componentWillReceiveProps": {
+        "prefix": "_cwrp",
+        "body": [
+            "componentWillReceiveProps = nextProps => {",
+            "\t$0",
+            "}"
+        ],
+        "description": "componentWillReceiveProps"
+    },
+
+    "shouldComponentUpdate": {
+        "prefix": "_scu",
+        "body": [
+            "shouldComponentUpdate = (nextProps, nextState) => {",
+            "\t$0",
+            "}"
+        ],
+        "description": "shouldComponentUpdate"
+    },
+
+    "componentWillUpdate": {
+        "prefix": "_cwu",
+        "body": [
+            "componentWillUpdate = (nextProps, nextState) => {",
+            "\t$0",
+            "}"
+        ],
+        "description": "componentWillUpdate"
+    },
+
+    "componentDidUpdate": {
+        "prefix": "_cdu",
+        "body": [
+            "componentDidUpdate = (prevProps, prevState) => {",
+            "\t$0",
+            "}"
+        ],
+        "description": "componentDidUpdate"
+    },
+
+    "componentWillUnmount": {
+        "prefix": "_cwu",
+        "body": [
+            "componentWillUnmount = (prevProps, prevState) => {",
+            "\t$0",
+            "}"
+        ],
+        "description": "componentWillUnmount"
+    },
+
+    "componentDidCatch": {
+        "prefix": "_cdc",
+        "body": [
+            "componentDidCatch = (error, info) => {",
+            "\t$0",
+            "}"
+        ],
+        "description": "componentDidCatch"
+    }
+}
